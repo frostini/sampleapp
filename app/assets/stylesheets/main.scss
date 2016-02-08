@@ -136,7 +136,7 @@ a:focus {
   color: #fff;
 }
 #contact .box {
-  background-color: #222;
+  background-color: rgba(0, 67, 117, 0.8);
   color: #999;
 }
 #contact .box h1,
@@ -153,8 +153,9 @@ a:focus {
 #contact .box input[type="text"],
 #contact .box input[type="email"],
 #contact .box textarea {
-  background-color: #111;
+  background-color: rgba(255,255,255,1);
   border: 0;
+  border-radius: 0;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
@@ -163,7 +164,7 @@ a:focus {
 #contact .box input[type="text"]:focus,
 #contact .box input[type="email"]:focus,
 #contact .box textarea:focus {
-  background-color: #000;
+  background-color:  rgba(255,255,255,1);
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -613,7 +614,9 @@ textarea#message {
 .isotope_filter{
   width: 100px;
 }
-
+.btn.btn-danger.btn-lg{
+  border-radius: 0;
+}
 
 .item{
   height: 250px;
