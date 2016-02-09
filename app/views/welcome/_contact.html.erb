@@ -31,18 +31,51 @@
                         </div>
                     </form>
 
-<%= form_for :inquiry do |f| %>
+<div class="status alert alert-success" style="display: none"></div>
 
-<%= f.label :name %>
-<%= f.text_field :name %><br />
+<%= form_for :inquiry, html: { class: "go" } do |f| %>
+<fieldset>
+<legend>Contact Us</legend>
 
-<%= f.label :message %>:
-<%= f.text_field :text %><br />
 
-<%= f.label :email %>:
-<%= f.text_area :email %><br />
-<%= f.submit %>
+<div class="control-group">
+    <%= f.label :name, class: "control-label" %>
+    <div class="control">
+    <%= f.text_area :name %>
+    </div>
+</div>
+
+<div class="control-group">
+    <%= f.label :message, class: "control-label" %>
+    <div class="control">
+    <%= f.text_area :text %>
+    </div>
+</div>
+
+
+
+<div class="control-group">
+    <%= f.label :email, class: "control-label" %>
+    <div class="control">
+    <%= f.text_area :email %>
+    </div>
+</div>
+
+    <div class="form-actions">
+        <%= f.submit "Name", :class => "btn btn-danger btn-lg" %>
+    </div>
+</fieldset>
 <% end %>
+
+
+
+
+
+
+
+
+
+
                 </div><!--/.col-sm-6-->
                 <div class="col-sm-6">
                     <h1>Our Address</h1>
