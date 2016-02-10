@@ -651,6 +651,12 @@ textarea#message {
 div.thumbnail{
   border-radius: 0;
 }
+
+img.service-image{
+  overflow: hidden;
+  max-height:150px;
+  max-width:280px;
+}
 /*_SERVICES SECTION STYLING (END)*/
 
 
@@ -659,6 +665,15 @@ div.thumbnail{
   float: right;
 }
 }
+
+
+
+
+
+
+
+
+
 
 @keyframes scaleUp {
   0% {
