@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>You just received a new inquiry from <%= @inquiry.name %></h1>
+    <p>
+      Their email is <%= @inquiry.email %>.<br>
+    </p>
+    <p>
+      This is what they had to say <%= @inquiry.text %>.
+    </p>
+    <p>Hope you are having a  great day!</p>
+
+    <p>Maybe you would like to: </p>
+    <p><button>Call</button> <button>Email</button></p>
+  </body>
+</html>
