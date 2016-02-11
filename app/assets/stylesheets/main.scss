@@ -154,15 +154,16 @@ div.item{
 }
 #contact .box {
   background-color: rgba(0, 67, 117, 0.8);
-  color: #999;
+  color: white;
 }
 #contact .box h1,
 #contact .box h2,
 #contact .box h3 {
-  color: #fff;
+  color: white;
 }
 #contact .box a {
-  color: #999;
+  color: white;
+  text-align: center;
 }
 #contact .box a:hover {
   color: #52b6ec;
@@ -637,10 +638,19 @@ textarea#message {
   border-radius: 0;
 }
 
-.item{
-  height: 250px;
+div.item{
+  height: 400px;
+}
+address.contact-us-text{
+  color: white;
 }
 
+@media (min-width: 400px) {
+div.item{
+  padding-top: 100px;
+  height: 400px;
+}  
+}
 
 
 
@@ -723,7 +733,7 @@ img.service-image{
   padding: 0 20%;
   font-size: 1.3em;
   margin: 0;
-  padding: 10% 20% 0;
+  padding: 10px 20% 0;
 }
 
 .navbar-default .navbar-brand{
