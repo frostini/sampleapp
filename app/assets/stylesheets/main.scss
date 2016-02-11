@@ -737,11 +737,17 @@ img.service-image{
 img.footer-logo{
   padding: 10px;
   background-color: rgba(0, 67, 117, 0.8);
-  margin-top: -20px;
+  margin-top: -5px;
 }
 
-
-
+@media (min-width: 400px) {
+img.footer-logo{
+margin-top: -15px;
+}
+}
+.navbar-default .navbar-nav>li>a:focus{
+ color: white; 
+}
 /*NAV BAR CUSTOMIZATION (START)*/
 .navbar-default .navbar-nav>li>a{
   padding: 10px 25px;
@@ -861,6 +867,7 @@ div.logo-txt-container{
   border: none;
   box-shadow: none; 
 }
+
 @keyframes scaleUp {
   0% {
     opacity: 0;
