@@ -804,6 +804,59 @@ div.logo-txt-container{
 }
 
 
+
+
+.navbar-toggle{
+  border-radius: 0;
+  /*background-color: #222222 !important;*/
+  border: none !important;
+  /*padding: 11px 20px 10px 10px;*/
+  margin: 8px 5px 0px;
+}
+
+.navbar-toggle .icon-bar {
+  /*width: 22px;*/
+  /*transition: all 0.2s;*/
+  margin: 0 auto;
+  width: 35px;
+  height: 5px;
+  -webkit-transition: all 0.2s;transition: all 0.2s;
+  background-color: rgba(255,255,255,1);
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: rgba(0, 67, 117, 0);
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+}
+.navbar-default button.collapsed.navbar-toggle:active{
+   background-color: rgba(0, 67, 117, 1);
+  border: none;
+  box-shadow: none; 
+}
 @keyframes scaleUp {
   0% {
     opacity: 0;
