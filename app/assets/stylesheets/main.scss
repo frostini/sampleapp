@@ -766,10 +766,17 @@ div.logo-txt-container{
   height: 100%;
   padding-left: 70px;
   padding-top: 5px;
+  width: 250px;
 
 }
 
-
+div.nav-logo-img{
+  background-image: url(../assets/q_logo.png);
+  width:65px;
+ height:55px;
+ display: block;
+ float: left;
+}
 
 
 @keyframes scaleUp {
