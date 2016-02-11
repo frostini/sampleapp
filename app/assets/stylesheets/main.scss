@@ -1,15 +1,28 @@
-
 @font-face {
-    font-family: 'arconregular';
-    src:font-url('arcon-regular-webfont.eot');
-    src:font-url('arcon-regular-webfont.eot?#iefix') format('embedded-opentype');
-    src:font-url('arcon-regular-webfont.woff2') format('woff2');
-    src:font-url('arcon-regular-webfont.woff') format('woff');
-    src:font-url('arcon-regular-webfont.ttf') format('truetype');
-    src:font-url('arcon-regular-webfont.svg#arconregular') format('svg');
+    font-family: 'sofia_prolight';
+    src: font-url('SofiaProLight-webfont.eot');
+    src: font-url('SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('SofiaProLight-webfont.woff2') format('woff2'),
+         font-url('SofiaProLight-webfont.woff') format('woff'),
+         font-url('SofiaProLight-webfont.ttf') format('truetype'),
+         font-url('SofiaProLight-webfont.svg#sofia_prolight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'arconregular';
+    src: font-url('arcon-regular-webfont.eot');
+    src: font-url('arcon-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        font-url('arcon-regular-webfont.woff2') format('woff2'),
+        font-url('arcon-regular-webfont.woff') format('woff'),
+        font-url('arcon-regular-webfont.ttf') format('truetype'),
+        font-url('arcon-regular-webfont.svg#arconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
@@ -25,7 +38,7 @@ h5,
 h6 {
   color: #777;
   font-weight: 300;
-  /*font-family: 'arconregular';*/
+  font-family: 'sofia_prolight';
 }
 a {
   color: #52b6ec;
@@ -488,10 +501,12 @@ a:focus {
   border-radius: 0 0 0 0px;
 }
 .navbar-default .navbar-brand {
-  margin-right: 50px;
-  margin-left: 20px;
+  /*margin-right: 50px;*/
+  /*margin-left: 20px;*/
   /*width: 200px;*/
-  /*height: 130px;*/
+  height: 60px;
+  padding: 0;
+  margin: 0;
   /*background: url(../assets/sample_logo.png) no-repeat 50% 50%;*/
 }
 
@@ -669,8 +684,90 @@ img.service-image{
 
 
 
+/*div.item div.container div.carousel-content.main-text  h1.home-title {
+  color: red;
+}*/
 
 
+#main-slider .item h1 {
+  color: white;
+  font-family: 'arconregular';
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+#main-slider .item h3 {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+#main-slider .item p {
+  color: white;
+  padding: 0 20%;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'sofia_prolight';
+  padding: 5px;
+  margin: 0;
+}
+
+img.footer-logo{
+  padding: 10px;
+  background-color: rgba(0, 67, 117, 0.8);
+  margin-top: -20px;
+}
+
+
+
+/*NAV BAR CUSTOMIZATION (START)*/
+.navbar-default .navbar-nav>li>a{
+  padding: 10px 25px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+span.nav-log-first,
+span.nav-log-second{
+  color: #EFF2F3;
+  float: left;
+  display: block;
+  width: 100%;
+  max-width: 170px;
+}
+span.nav-log-first{
+font-size: 1.6em;
+}
+span.nav-log-second{
+  font-size: 0.8em;
+  padding-top: 3px;
+}
+
+.nav.navbar-nav{
+  margin-top: 10px;
+}
+/*NAV BAR CUSTOMIZATION (END)*/
+img.nav-logo-img{
+  float: left;
+  display: block;
+}
+div.logo-txt-container{
+  /*background-color: white;*/
+  /*z-index: 1000;*/
+  /*width: 100%;*/
+  /*display: block;*/
+  /*border: 1px solid white;*/
+  height: 100%;
+  padding-left: 70px;
+  padding-top: 5px;
+
+}
 
 
 
