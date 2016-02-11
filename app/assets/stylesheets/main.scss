@@ -81,8 +81,12 @@ a:focus {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  padding: 200px 0;
+  padding: 100px 0 200px;
   color: #fff;
+  height: 100%;
+}
+div.item{
+  height: 400px;
 }
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
@@ -704,22 +708,22 @@ img.service-image{
 #main-slider .item h1 {
   color: white;
   font-family: 'arconregular';
-  font-size: 1em;
+  font-size: 3em;
   margin: 0;
   padding: 0;
 }
 #main-slider .item h3 {
   color: white;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0;
-  padding: 0;
+  padding: 0 10%;
 }
 #main-slider .item p {
   color: white;
   padding: 0 20%;
-  font-size: 1em;
+  font-size: 1.3em;
   margin: 0;
-  padding: 0;
+  padding: 10% 20% 0;
 }
 
 .navbar-default .navbar-brand{
