@@ -667,11 +667,23 @@ div.thumbnail{
   border-radius: 0;
 }
 
+
+img.service-image{
+  overflow: hidden;
+  max-height:80px;
+  max-width: 150px;
+}
+
+@media (min-width: 400px){
 img.service-image{
   overflow: hidden;
   max-height:150px;
   max-width: 300px;
 }
+
+}
+
+
 /*_SERVICES SECTION STYLING (END)*/
 
 
@@ -742,10 +754,10 @@ span.nav-log-second{
   max-width: 170px;
 }
 span.nav-log-first{
-font-size: 1.6em;
+font-size: 1.5em;
 }
 span.nav-log-second{
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding-top: 3px;
 }
 
@@ -766,7 +778,7 @@ div.logo-txt-container{
   height: 100%;
   padding-left: 70px;
   padding-top: 5px;
-  width: 250px;
+  width: 200px;
 
 }
 
@@ -776,6 +788,19 @@ div.nav-logo-img{
  height:55px;
  display: block;
  float: left;
+}
+
+@media (min-width: 400px) {
+  span.nav-log-first{
+font-size: 1.6em;
+}
+span.nav-log-second{
+  font-size: 0.8em;
+  padding-top: 3px;
+}
+div.logo-txt-container{
+  width: 250px;
+}
 }
 
 
