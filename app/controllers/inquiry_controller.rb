@@ -4,8 +4,8 @@ class InquiryController < ApplicationController
 
     respond_to do |format|
       if @inquiry.save
-        ContactMailer.new_inquiry_email(@inquiry).deliver_now!
-        ContactMailer.welcome_email(@inquiry).deliver_now!
+        ContactMailer.new_inquiry_email(@inquiry).deliver_now
+        ContactMailer.welcome_email(@inquiry).deliver_now
         format.html { redirect_to :root, notice: 'assistant was successfully created.' }
         format.json { render :root, status: :created, location: :root }
       else

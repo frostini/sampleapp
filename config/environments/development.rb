@@ -37,7 +37,7 @@ Rails.application.configure do
   config.assets.raise_runtime_errors = true
 
   # Raises error for missing translations
-# config.active_record.default_timezone = ''
+
 config.active_record.default_timezone = :local
 
   # config.action_view.raise_on_missing_translations = true
