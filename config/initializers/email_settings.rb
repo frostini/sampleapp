@@ -5,6 +5,6 @@ ActionMailer::Base.smtp_settings = {
     port: 587,
     enable_starttls_auto: true,
     format: :html,
-    from: 'marlon@foremanit.com',
+    from: 'marlon@affordablehousingapp.com',
     :openssl_verify_mode => 'none'
 }
