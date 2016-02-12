@@ -7,8 +7,8 @@ ActionMailer::Base.smtp_settings = {
     port: 587,
     enable_starttls_auto: true,
     format: :html,
-    from: 'marlon@affordablehousingapp.com',
-    :authentication => :plain,
-    :openssl_verify_mode => 'none'
+    from: 'marlon@affordablehousingapp.com'
+    # :authentication => :plain,
+    # :openssl_verify_mode => 'none'
 }
-ActionMailer::Base.default_url_options[:host] = "qmhs.herokuapp.com"
+ActionMailer::Base.default_url_options[:host] = "affordablehousingapp.com"
