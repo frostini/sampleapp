@@ -1,13 +1,3 @@
-
-#     :authentication => :plain,
-#     :openssl_verify_mode => 'none'
-# config.action_mailer.delivery_method = :smtp
-# config.action_mailer.perform_deliveries = true
-
-# config.action_mailer.default_url_options[:host] = "affordablehousingapp.com"
-
-
-
 ActionMailer::Base.smtp_settings = {
     user_name: 'SMTP_Injection',
     password: ENV['SPARKPOST_API_KEY'],
@@ -17,5 +7,4 @@ ActionMailer::Base.smtp_settings = {
     format: :html,
     from: 'marlon@foremanit.com'
 }
-# ActionMailer::Base.default_url_options[:host] = "affordablehousingapp.com"
 
