@@ -803,7 +803,7 @@ div.logo-txt-container{
 }
 
 div.nav-logo-img{
-  background-image: url(../assets/q_logo.png);
+  background-image: asset-data-url('q_logo.png');
   width:65px;
  height:55px;
  display: block;
