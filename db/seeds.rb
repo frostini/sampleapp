@@ -10,10 +10,10 @@
 
 services_list = [
   { "Title" => 'Service 1', 'Description' => 'Some details on Service One', 'Image' => 'service_1.jpg' },
-  { "Title" => 'Service 2', 'Description' => 'Some details on Service Two', 'Image' => 'service_2.jpeg' },
+  { "Title" => 'Service 2', 'Description' => 'Some details on Service Two', 'Image' => 'service_2.jpg' },
   { "Title" => 'Service 3', 'Description' => 'Some details on Service Three', 'Image' => 'service_3.JPG'},
   { "Title" => 'Service 4', 'Description' => 'Some details on Service Four', 'Image' => 'service_4.jpg' },
-  { "Title" => 'Service 5', 'Description' => 'Some details on Service Five', 'Image' => 'service_5.jpeg'},
+  { "Title" => 'Service 5', 'Description' => 'Some details on Service Five', 'Image' => 'service_5.jpg'},
   { "Title" => 'Service 6', 'Description' => 'Some details on Service Six', 'Image' => 'service_6.jpg'},
   { "Title" => 'Service 7', 'Description' => 'Some details on Service Seven', 'Image' => 'service_7.jpg'},
   { "Title" => 'Service 8', 'Description' => 'Some details on Service Eight', 'Image' => 'service_8.jpg'},
