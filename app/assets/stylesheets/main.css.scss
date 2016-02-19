@@ -891,23 +891,24 @@ ul.nav.navbar-nav li  a.nav-home-link{
 .flash-message {
   &.error {
     border: solid 4px #900;
-          background-color: #FF6565;
+    background-color: #FF6565;
         }
   &.notice {
-    border: solid 4px #26722D;
-          background-color: #A4E7A0;
-        
-  color: black;
-  z-index: 999;
-  position: fixed;
-  font-weight: bold;
-  width: 96%;
-  margin: 20px;
+    border: solid 4px rgba(0, 67, 117, 0.8);
+    background-color: rgba(0, 67, 117, 0.8);
+    color: white;
+    z-index: 999;
+    position: absolute;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    top: 60px;
 }
-        p {
-                font-size: 110%;
-                margin: 15px 0;
-        }
+  p {
+          font-size: 110%;
+          margin: 15px 0;
+          text-align: center;
+  }
 }
 
 
