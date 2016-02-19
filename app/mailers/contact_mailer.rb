@@ -1,5 +1,5 @@
 class ContactMailer < ApplicationMailer
-default from: 'marlon@affordablehousingapp.com'
+default from: 'marlon@foremanit.com'
 	def welcome_email(inquiry)
 		@inquiry = inquiry
 			mail(to: @inquiry.email, subject: 'Thank you so much for reaching out')

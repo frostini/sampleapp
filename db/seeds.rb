@@ -5,9 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
-
-
 services_list = [
   { "Title" => 'Service 1', 'Description' => 'Some details on Service One', 'Image' => 'service_1.jpg' },
   { "Title" => 'Service 2', 'Description' => 'Some details on Service Two', 'Image' => 'service_2.jpg' },
@@ -22,11 +19,6 @@ services_list = [
   { "Title" => 'Service 11', 'Description' => 'Some details on Service Eleven', 'Image' => 'service_11.jpg'},
   { "Title" => 'Service 12', 'Description' => 'Some details on Service Twelve', 'Image' => 'service_12.jpg'}
 ]
-
-
-
-
-
 services_list.each do |service|
   new_service = Service.new( title: service['Title'], description: service['Description'], service_img_link: service['Image'] )
   if new_service.save

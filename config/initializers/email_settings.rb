@@ -15,7 +15,7 @@ ActionMailer::Base.smtp_settings = {
     port: ENV['SPARKPOST_SMTP_PORT'],
     enable_starttls_auto: true,
     format: :html,
-    from: 'mailer@yourawesomeapp.com'
+    from: 'marlon@foremanit.com'
 }
 # ActionMailer::Base.default_url_options[:host] = "affordablehousingapp.com"
 
