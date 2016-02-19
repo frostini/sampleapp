@@ -9,18 +9,18 @@
 
 
 services_list = [
-  { "Title" => 'Service 1', 'Description' => 'Some details on Service One', 'Image' => 'assets/service_1.jpg' },
-  { "Title" => 'Service 2', 'Description' => 'Some details on Service Two', 'Image' => 'assets/service_2.jpeg' },
-  { "Title" => 'Service 3', 'Description' => 'Some details on Service Three', 'Image' => 'assets/service_3.JPG'},
-  { "Title" => 'Service 4', 'Description' => 'Some details on Service Four', 'Image' => 'assets/service_4.jpg' },
-  { "Title" => 'Service 5', 'Description' => 'Some details on Service Five', 'Image' => 'assets/service_5.jpeg'},
-  { "Title" => 'Service 6', 'Description' => 'Some details on Service Six', 'Image' => 'assets/service_6.jpg'},
-  { "Title" => 'Service 7', 'Description' => 'Some details on Service Seven', 'Image' => 'assets/service_7.jpg'},
-  { "Title" => 'Service 8', 'Description' => 'Some details on Service Eight', 'Image' => 'assets/service_8.jpg'},
-  { "Title" => 'Service 9', 'Description' => 'Some details on Service Nine', 'Image' => 'assets/service_9.jpg'},
-  { "Title" => 'Service 10', 'Description' => 'Some details on Service Ten', 'Image' => 'assets/service_10.jpg'},
-  { "Title" => 'Service 11', 'Description' => 'Some details on Service Eleven', 'Image' => 'assets/service_11.jpg'},
-  { "Title" => 'Service 12', 'Description' => 'Some details on Service Twelve', 'Image' => 'assets/service_12.jpg'}
+  { "Title" => 'Service 1', 'Description' => 'Some details on Service One', 'Image' => 'service_1.jpg' },
+  { "Title" => 'Service 2', 'Description' => 'Some details on Service Two', 'Image' => 'service_2.jpeg' },
+  { "Title" => 'Service 3', 'Description' => 'Some details on Service Three', 'Image' => 'service_3.JPG'},
+  { "Title" => 'Service 4', 'Description' => 'Some details on Service Four', 'Image' => 'service_4.jpg' },
+  { "Title" => 'Service 5', 'Description' => 'Some details on Service Five', 'Image' => 'service_5.jpeg'},
+  { "Title" => 'Service 6', 'Description' => 'Some details on Service Six', 'Image' => 'service_6.jpg'},
+  { "Title" => 'Service 7', 'Description' => 'Some details on Service Seven', 'Image' => 'service_7.jpg'},
+  { "Title" => 'Service 8', 'Description' => 'Some details on Service Eight', 'Image' => 'service_8.jpg'},
+  { "Title" => 'Service 9', 'Description' => 'Some details on Service Nine', 'Image' => 'service_9.jpg'},
+  { "Title" => 'Service 10', 'Description' => 'Some details on Service Ten', 'Image' => 'service_10.jpg'},
+  { "Title" => 'Service 11', 'Description' => 'Some details on Service Eleven', 'Image' => 'service_11.jpg'},
+  { "Title" => 'Service 12', 'Description' => 'Some details on Service Twelve', 'Image' => 'service_12.jpg'}
 ]
 
 

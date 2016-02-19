@@ -76,7 +76,7 @@ a:focus {
   z-index: 99999;
 }
 #main-slider {
-  background-image: url(../assets/b_cons_pers.jpg);
+  background-image: asset-data-url('b_cons_pers.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
