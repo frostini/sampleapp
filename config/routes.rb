@@ -28,7 +28,7 @@ Rails.application.routes.draw do
   #
   #     collection do
   #       get 'sold'
-  #     end
+  #     endx 
   #   end
 
   # Example resource route with sub-resources:
